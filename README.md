@@ -1,13 +1,19 @@
 # Lista Comandos
 
-
+- Muestra las bases de datos que tengamos
 ```
 show dbs 
 ```
+- Muestra el nombre de la base actual en la que nos encontramos
+```
+db  
+```
+- Nos permite crear una base o usar una base de datos creada
+```
+use namedb 
+```
 
-show dbs                                                                         ||    Muestra las bases de datos que tengamos
-db                                                                               ||    Muestra el nombre de la base actual en la que nos encontramos
-use namedb                                                                       ||    Nos permite crear una base o usar una base de datos creada
+      
 show collections                                                                 ||    Nos muestra las colecciones que tenemos 
 db.createCollection("nameNewCollection")                                         ||    Nos permite crear una colección 
 db.nameCollections.drop()                                                        ||    Nos permite eliminar una colección
