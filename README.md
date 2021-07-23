@@ -1,9 +1,9 @@
 # Lista Comandos
 
 - Muestra las bases de datos que tengamos
-``
+```
 show dbs 
-``
+```
 - Muestra el nombre de la base actual en la que nos encontramos
 ```
 db  
@@ -12,12 +12,30 @@ db
 ```
 use namedb 
 ```
+- Nos muestra las colecciones que tenemos 
+```
+show collections         
+```
+- Nos permite crear una colección
+```
+db.createCollection("nameNewCollection")       
+```
+-  Nos permite eliminar una colección
+```
+db.nameCollections.drop()          
+```
+- Nos permite ingresar un dato en formato Json 
+```
+db.nameCollection.insert({dataFormatJson})          
+```
+-
+-
+-
+-
 
-      
-show collections                                                                 ||    Nos muestra las colecciones que tenemos 
-db.createCollection("nameNewCollection")                                         ||    Nos permite crear una colección 
-db.nameCollections.drop()                                                        ||    Nos permite eliminar una colección
-db.nameCollection.insert({dataFormatJson})                                       ||    Nos permite ingresar un dato en formato Json 
+
+
+           
 db.nameCollection.insert([{dataFormatJson},{dataFormatJson}])                    ||    Nos permite ingresar datos en una lista de manera mas rápida
 db.namecollection.find()                                                         ||    Nos permite visualizar todos los datos
 db.namecollection.find().limit(number)                                           ||    Nos permite visualizar los datos especificando cuantos quiero ver 
