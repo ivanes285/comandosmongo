@@ -1,9 +1,9 @@
 # Lista Comandos
 
 - Muestra las bases de datos que tengamos
-```
+``
 show dbs 
-```
+``
 - Muestra el nombre de la base actual en la que nos encontramos
 ```
 db  
