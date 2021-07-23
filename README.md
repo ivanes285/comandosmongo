@@ -1,4 +1,9 @@
-COMANDOS FOR ALWAYS REMEMBER
+# Lista Comandos
+
+
+```
+show dbs 
+```
 
 show dbs                                                                         ||    Muestra las bases de datos que tengamos
 db                                                                               ||    Muestra el nombre de la base actual en la que nos encontramos
